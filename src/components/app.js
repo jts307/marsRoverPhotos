@@ -7,7 +7,7 @@ import Buttons from './buttons';
 
 const About = (props) => {
   return (
-    <div className="app_container">
+    <div className="app_container about_container">
       <p className="about_page">
         This is a tool I created to look through images of Mars taken by the Mars Rover.
         You can post an interesting image you find to the unofficial Mars Rover instagram

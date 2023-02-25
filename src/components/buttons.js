@@ -79,6 +79,7 @@ const Buttons = (props) => {
 
   const shareInstagramPost = async () => {
     const facebookPages = await getFacebookPages();
+    console.log(facebookPages);
     const instagramAccountId = await getInstagramAccountId(facebookPages[0].id);
     const mediaObjectContainerId = await createMediaObjectContainer(
       instagramAccountId,
@@ -120,7 +121,7 @@ const Buttons = (props) => {
             }
           }
         }
-      >Post to Mars Rover Instagram <SocialIcon url="https://instagram.com/jaketrent" fgColor="rgb(193, 68, 14)" bgColor="rgb(240, 231, 231)" />
+      >Post to Mars Rover Instagram <SocialIcon network="instagram" fgColor="rgb(193, 68, 14)" bgColor="rgb(240, 231, 231)" />
       </button>
     </div>
   );
