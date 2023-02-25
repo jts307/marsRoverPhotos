@@ -19,7 +19,7 @@ const About = (props) => {
   );
 };
 const Welcome = (props) => {
-  return <div><MainImage /><Buttons /></div>;
+  return <div className="app_container"><MainImage /><Buttons /></div>;
 };
 
 const Nav = (props) => {
