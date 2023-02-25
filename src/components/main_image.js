@@ -16,7 +16,7 @@ class MainImage extends Component {
       const formattedphotoDate = `${String(photoDate.getMonth() + 1)}-${String(photoDate.getDate())}-${photoDate.getFullYear()}`;
       return (
         <div className="main_display">
-          Mars Rover Photo {this.props.current + 1} - Taken yesterday: {formattedphotoDate}
+          Mars Rover Photo {this.props.current + 1} - Taken: {formattedphotoDate}
           <img src={this.props.photos[this.props.current].img_src} alt="Mars as seen by Mars Rover" width="500" height="600" />
         </div>
       );
