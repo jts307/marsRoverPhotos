@@ -7,13 +7,15 @@ import Buttons from './buttons';
 
 const About = (props) => {
   return (
-    <div>
+    <div className="app_container">
       <p className="about_page">
         This is a tool I created to look through images of Mars taken by the Mars Rover.
         You can post an interesting image you find to the unofficial Mars Rover instagram
-        using the instagram button: https://www.instagram.com/marsroverphotos/
-
-        The login info is marsroverimages@gmail.com and kNay%/@/VT&#40;x@G3
+        using the post to instagram button. Use these credentials to login to Facebook when prompted:
+        <br /><br />- Email: marsroverimages@gmail.com
+        <br />- Password: kNay%/@/VT&#40;x@G3
+        <br /><br />You can view all posted images on the instagram here:<br />
+        <a href="https://www.instagram.com/marsroverphotos/">https://www.instagram.com/marsroverphotos/</a>
       </p>
     </div>
   );
