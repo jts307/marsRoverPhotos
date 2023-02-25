@@ -10,7 +10,6 @@ import {
 // https://medium.com/geekculture/how-to-publish-content-with-the-instagram-graph-api-806ec9c56588
 const Buttons = (props) => {
   const [facebookUserAccessToken, setFacebookUserAccessToken] = useState('');
-  const [isSharingPost, setIsSharingPost] = useState(false);
 
   // get access to the facebook page tied to the instagram account
   const getFacebookPages = () => {
@@ -79,7 +78,6 @@ const Buttons = (props) => {
   };
 
   const shareInstagramPost = async () => {
-    setIsSharingPost(true);
     const facebookPages = await getFacebookPages();
     const instagramAccountId = await getInstagramAccountId(facebookPages[0].id);
     const mediaObjectContainerId = await createMediaObjectContainer(
@@ -90,8 +88,6 @@ const Buttons = (props) => {
       instagramAccountId,
       mediaObjectContainerId,
     );
-
-    setIsSharingPost(false);
   };
 
   return (
@@ -124,7 +120,7 @@ const Buttons = (props) => {
             }
           }
         }
-      >{isSharingPost ? 'Posting...' : 'Post to Mars Rover Instagram'}
+      >Post to Mars Rover Instagram
       </button>
     </div>
   );
