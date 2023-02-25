@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
-
+import { SocialIcon } from 'react-social-icons';
 import {
   getNextImage, getPreviousImage, getMarsImages,
 } from '../actions';
@@ -120,7 +120,7 @@ const Buttons = (props) => {
             }
           }
         }
-      >Post to Mars Rover Instagram
+      >Post to Mars Rover Instagram <SocialIcon url="https://instagram.com/jaketrent" fgColor="rgb(193, 68, 14)" bgColor="rgb(240, 231, 231)" />
       </button>
     </div>
   );

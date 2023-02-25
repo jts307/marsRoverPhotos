@@ -26,8 +26,9 @@ const Nav = (props) => {
   return (
     <nav>
       <ul>
-        <li><NavLink to="/" exact>Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/" activeStyle={{ color: 'rgb(193, 68, 14)' }} exact>Home</NavLink>
+        </li>
+        <li><NavLink to="/about" activeStyle={{ color: 'rgb(193, 68, 14)' }}>About</NavLink></li>
       </ul>
     </nav>
   );
