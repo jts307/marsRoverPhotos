@@ -42,9 +42,9 @@ html {
 }
 
 img {
-  height: auto;
-  width: 100%;
-  max-height: inherit;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -110,6 +110,7 @@ button:hover {
 
 nav {
   height: 5vh;
+  margin-bottom: 10px;
 
   a:active {
     color: $themeColor2;
@@ -140,9 +141,9 @@ p {
 @media only screen and (max-width: 640px) {
 
   body,
-  html {
+  html,
+  button,
+  .about_page {
     font-size: 15px;
   }
-
-  nav {}
 }

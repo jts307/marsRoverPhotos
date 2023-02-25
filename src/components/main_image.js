@@ -17,7 +17,7 @@ class MainImage extends Component {
       return (
         <div className="main_display">
           Mars Rover Photo {this.props.current + 1} - Taken yesterday: {formattedphotoDate}
-          <img src={this.props.photos[this.props.current].img_src} alt="Girl in a jacket" width="500" height="600" />
+          <img src={this.props.photos[this.props.current].img_src} alt="Mars as seen by Mars Rover" width="500" height="600" />
         </div>
       );
     } else {
