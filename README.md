@@ -1,4 +1,4 @@
-# marsRoverTwitter
+# Mars Rover Photos
 This is a website that allows the user to search through images taken by the Mars Rover from the previous day. It also allows the user to post an image to the Mars Rover Instagram. To do so, you need the Mars Rover Facebook login info which is: 
 
 email: marsroverimages@gmail.com
@@ -6,7 +6,7 @@ password: kNay%/@/VT&#40;x@G3
 
 The instagram images can be viewed at: https://www.instagram.com/marsroverphotos/
 
-The live website is here:  
+The live website is here: 
 
 This is probably self-explanatory but I will just say it. To navigate through the photos use the Next/Previous buttons. To upload an image to the Instagram: press "Post to Instagram", login using the Mars Rover facebook info above, give permissions to app, ???, and profit. It will load for a second and the image should be available for viewing on the instagram linked above.
 
