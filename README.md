@@ -10,6 +10,14 @@ The live website is here: https://relaxed-biscochitos-cb229e.netlify.app
 
 This is probably self-explanatory but I will just say it. To navigate through the photos use the Next/Previous buttons. To upload an image to the Instagram: press "Post to Instagram", login using the Mars Rover facebook info above, give permissions to app, ???, and profit. It will load for a second and the image should be available for viewing on the instagram linked above.
 
+## Backend
+
+The app communicates with a backend api that I created that converts images to an aspect ratio acceptable for instagram.
+
+github for backend: https://github.com/jts307/marsRover-api
+
+heroku for backend: https://mars-rover-instagram.herokuapp.com/
+
 ## What went well
 
 I was able to create something that has a practical use. I can imagine it would be nice to look through the Mars Rover Images and the ability to quickly share something you might find interesting is also nice. 
