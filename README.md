@@ -1,4 +1,4 @@
-# Shiitake Posts
+# Mars Rover Photos
 
 ### Mars Rover Photos
 This is a website that allows the user to search through the most recent images sent from the Mars Rover. That’s on Mars btw, didn’t know if you knew that. It also allows the user to post an image they found on the website to the Mars Rover Instagram. To do so, you need the Mars Rover Facebook login info which is:
