@@ -14,7 +14,7 @@ This is probably self-explanatory but I will just say it. To navigate through th
 
 The app communicates with a backend api that I created that converts images to an aspect ratio acceptable for instagram.
 
-github for backend: https://github.com/jts307/marsRover-api
+github for backend: https://github.com/jts307/marsRoverPhotos-api
 
 heroku for backend: https://mars-rover-instagram.herokuapp.com/
 
